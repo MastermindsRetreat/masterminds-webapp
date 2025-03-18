@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  color: #333;
+  background-color: #FAF0E6; /* Off-white */
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #556B2F; /* Deep Olive Green */
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: #B85C38; /* Rusty Orange */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #E97451; /* Burnt Sienna */
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 5px; /* Slightly rounded corners */
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  border: 1px solid transparent; /* Add a transparent border for hover effect */
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  line-height: 1; /* Adjust line height for better vertical centering */
+}
+
+.button.primary {
+  background-color: #B85C38; /* Rusty Orange */
+  color: #FAF0E6; /* Off-white */
+  border-color: #B85C38;
+}
+
+.button.primary:hover {
+  background-color: #E97451; /* Burnt Sienna (darker hover) */
+  border-color: #E97451;
+}
+
+.button.secondary {
+  background-color: #FFDB58; /* Mustard Yellow */
+  color: #333;
+  border-color: #FFDB58;
+}
+
+.button.secondary:hover {
+  background-color: #F0C808; /* Darker Mustard */
+  border-color: #F0C808;
+}
+
+.button.accent {
+  background-color: #8B0000; /* Deep Red */
+  color: #FAF0E6;
+  border-color: #8B0000;
+}
+
+.button.accent:hover {
+  background-color: #A70000; /* Slightly darker Red */
+  border-color: #A70000;
+}
+
+/* You can add more specific button styles as needed */
+.btn-enroll {
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  border-radius: 8px; /* Slightly more rounded for emphasis */
+  background-color: #556B2F; /* Deep Olive Green (as an example) */
+  color: #F5F5DC; /* Creamy Beige */
+  border-color: #556B2F;
+}
+
+.btn-enroll:hover {
+  background-color: #6B8E23; /* Olive Drab (darker hover) */
+  border-color: #6B8E23;
+}
