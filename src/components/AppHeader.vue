@@ -25,7 +25,7 @@ import { RouterLink } from 'vue-router';
 header {
   background-color: rgba(0, 0, 0, 0.7); /* Dark background with 70% opacity */
   color: #fff;
-  padding: 15px 0; /* Slightly increased padding */
+  padding: 0px 0; /* Slightly increased padding */
   position: fixed; /* Make it stick to the top */
   top: 0;
   left: 0;
@@ -34,7 +34,7 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 .container {
-  width: 80%;
+  width: 60%;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
